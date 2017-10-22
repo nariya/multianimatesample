@@ -46,11 +46,6 @@ Let's enjoy!
 
 
 
-chatwork apiをpythonから叩く
-とりあえず作ったので公開.
-まだメッセージ送信しか無いがとりあえずは動く.
-
-
 ===========
 License
     WTFPL 2.0 http://www.wtfpl.net/
