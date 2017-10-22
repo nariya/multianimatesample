@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="symbol1" itemID="59eb2d8a-000003d7" lastModified="1508584842">
+  <timeline>
+    <DOMTimeline name="symbol1">
+      <layers>
+        <DOMLayer name="レイヤー 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#990000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!2000 1000S2[2000 1414 1707 1707!1707 1707[1414 2000 1000 2000!1000 2000[585 2000 292 1707!292 1707[20 1434 1 1056!1 1056[0 1028 0 1000!0 1000[0 585 292 292!292 292[585 0 1000 0!1000 0[1028 0 1056 1!1056 1[1434 20 1707 292!1707 292[2000
+ 585 2000 1000"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

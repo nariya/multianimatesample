@@ -1,0 +1,186 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#0066CC" width="1080" currentTimeline="1" xflVersion="2.95" creatorInfo="Adobe Animate CC" platform="Macintosh" versionInfo="Saved by Animate Macintosh 16.5 build 104" majorVersion="16" minorVersion="5" buildNumber="104" viewAngle3D="91.258197287559" vanishingPoint3DX="540" previewMode="full" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="C442A06A5BD64DAE878B4CF5CCF04012">
+     <symbols>
+          <Include href="btn1.xml" loadImmediate="false" itemID="59ec54c7-0000021c" lastModified="1508660485"/>
+          <Include href="symbol1.xml" loadImmediate="false" itemID="59eb2d8a-000003d7" lastModified="1508584842"/>
+          <Include href="symbol2.xml" loadImmediate="false" itemID="59eb5f25-00000451" lastModified="1508597541"/>
+          <Include href="symbol3.xml" loadImmediate="false" itemID="59eb5f28-00000452" lastModified="1508597544"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="シーン 1">
+               <layers>
+                    <DOMLayer name="レイヤー 4" color="#FF4FFF">
+                         <frames>
+                              <DOMFrame index="0" duration="21" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="btn1" name="btn1">
+                                             <matrix>
+                                                  <Matrix tx="398" ty="152"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="63" y="36.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Actions" color="#FF800A" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[
+
+this.btn1.addEventListener("click", onClick.bind(this));
+
+function onClick()
+{
+	alert("button pressed");
+	
+	//3番目のcanvasのrootを html側で exportRoot3と命名してあるので、そちらの要素をjavascriptでいじる.
+	exportRoot3.textbox.text = "Hello from canvas2";
+}
+this.stop();
+]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[
+/* このフレームで停止
+ タイムラインは、このコードが挿入されたフレームで停止 / 一時停止します。
+ムービークリップのタイムラインの停止 / 一時停止にも使用できます。
+*/
+
+//this.play(0);
+
+]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="20" keyMode="9728">
+                                   <elements>
+                                        <DOMShape>
+                                             <fills>
+                                                  <FillStyle index="1">
+                                                       <SolidColor color="#990000"/>
+                                                  </FillStyle>
+                                             </fills>
+                                             <edges>
+                                                  <Edge fillStyle1="1" edges="!11928 2890[11928 3304 11635 3597!11635 3597[11342 3890 10928 3890!10928 3890[10513 3890 10220 3597!10220 3597[9948 3324 9929 2946!9929 2946[9928 2918 9928 2890!9928 2890[9928 2475 10220 2182!10220 2182[10513 1890 10928 1890!10928 1890
+[10956 1890 10984 1891!10984 1891[11362 1910 11635 2182!11635 2182[11928 2475 11928 2890"/>
+                                             </edges>
+                                        </DOMShape>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="レイヤー 2" color="#9933CC">
+                         <frames>
+                              <DOMFrame index="0" duration="19" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="19" duration="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="レイヤー 3" color="#FF800A" animationType="motion object">
+                         <frames>
+                              <DOMFrame index="0" duration="21" tweenType="motion object" motionTweenRotate="none" motionTweenScale="false" isMotionObject="true" visibleAnimationKeyframes="4194303" keyMode="8195">
+                                   <motionObjectXML><AnimationCore TimeScale="24000" Version="1" duration="21000"><TimeMap strength="0" type="Quadratic"/><metadata><names><name langID="ja_JP" value=""/></names><Settings orientToPath="0" xformPtXOffsetPct="0.5" xformPtYOffsetPct="0.5" xformPtZOffsetPixels="0"/></metadata><PropertyContainer id="headContainer"><PropertyContainer id="Basic_Motion"><Property enabled="1" id="Motion_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,596.95" next="0,596.95" previous="0,596.95" roving="0" timevalue="20000"/></Property><Property enabled="1" id="Motion_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/><Keyframe anchor="0,17" next="0,17" previous="0,17" roving="0" timevalue="20000"/></Property><Property enabled="1" id="Rotation_Z" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Depth" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Transformation"><Property enabled="1" id="Skew_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Skew_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,0" next="0,0" previous="0,0" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_X" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property><Property enabled="1" id="Scale_Y" ignoreTimeMap="0" readonly="0" visible="1"><Keyframe anchor="0,100" next="0,100" previous="0,100" roving="0" timevalue="0"/></Property></PropertyContainer><PropertyContainer id="Colors"/><PropertyContainer id="Filters"/></PropertyContainer></AnimationCore></motionObjectXML>
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="symbol3">
+                                             <matrix>
+                                                  <Matrix tx="15.95" ty="109"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="54" y="37.5"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="レイヤー 1" color="#4F80FF" current="true" isSelected="true">
+                         <frames>
+                              <DOMFrame index="0" duration="21" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="symbol2" name="movieClip_1">
+                                             <matrix>
+                                                  <Matrix tx="11.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="484.05" y="50"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                        <DOMDynamicText fontRenderingMode="standard" width="718.95" height="82.95" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="125.95" ty="15.05"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>canvas2 </characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="75" size="50" bitmapSize="1000" face="Meiryo-Bold" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                        <DOMDynamicText name="textbox2" fontRenderingMode="standard" width="718.95" height="82.95" isSelectable="false" lineType="multiline">
+                                             <matrix>
+                                                  <Matrix tx="92.95" ty="315.05"/>
+                                             </matrix>
+                                             <textRuns>
+                                                  <DOMTextRun>
+                                                       <characters>(</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="75" size="50" bitmapSize="1000" face="Meiryo-Bold" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>｀・</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="75" size="50" bitmapSize="1000" face="Meiryo-Bold" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>ω</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="75" size="50" bitmapSize="1000" face="Meiryo-Bold" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>・</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="75" size="50" bitmapSize="1000" face="Meiryo-Bold" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                                  <DOMTextRun>
+                                                       <characters>´)</characters>
+                                                       <textAttrs>
+                                                            <DOMTextAttrs alignment="center" aliasText="false" autoKern="false" lineHeight="75" size="50" bitmapSize="1000" face="Meiryo-Bold" fillColor="#FFFFFF"/>
+                                                       </textAttrs>
+                                                  </DOMTextRun>
+                                             </textRuns>
+                                        </DOMDynamicText>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <persistentData>
+          <PD n="snippetCounter" t="i" v="2"/>
+          <PD n="クリックして特定のフレームに移動し、再生" t="i" v="2"/>
+          <PD n="クリックして Web ページに移動" t="i" v="2"/>
+          <PD n="このフレームで停止" t="i" v="2"/>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+     </persistentData>
+     <PrinterSettings platform="macintosh"/>
+     <publishHistory/>
+</DOMDocument>

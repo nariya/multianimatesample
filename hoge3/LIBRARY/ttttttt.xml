@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="ttttttt" itemID="59eb6268-0000046c" lastModified="1508660547">
+  <timeline>
+    <DOMTimeline name="ttttttt">
+      <layers>
+        <DOMLayer name="レイヤー 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="aaaaa" fontRenderingMode="standard" width="404" height="75" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-35.95" ty="-132"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>canvas3</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="75" size="50" bitmapSize="1000" face="Meiryo-Bold" fillColor="#990000"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

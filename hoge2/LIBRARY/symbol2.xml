@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="symbol2" itemID="59eb5f25-00000451" lastModified="1508597541">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="symbol2">
+      <layers>
+        <DOMLayer name="レイヤー 1" color="#4F80FF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#990000"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!19363 1000[19363 1414 19070 1707!19070 1707[18777 2000 18363 2000!18363 2000[17948 2000 17655 1707!17655 1707[17383 1434 17364 1056!17364 1056[17363 1028 17363 1000!17363 1000[17363 585 17655 292!17655 292[17948 0 18363 0!18363 0[18391
+ 0 18419 1!18419 1[18797 20 19070 292!19070 292[19363 585 19363 1000"/>
+                  </edges>
+                </DOMShape>
+                <DOMSymbolInstance libraryItemName="symbol1" name="movieClip_1">
+                  <transformationPoint>
+                    <Point x="50" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
